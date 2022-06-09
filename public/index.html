@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise</title>
+</head>
+<body>
+    <div style="text-align: center; margin-top: 4.25em">
+        <h2 style="background-color: grey; color: white; font-weight:500">Exercise</h2>
+        <span id="userErrorSpan"></span>
+        <hr>
+        <span id="passwErrorSpan"></span>
+    </div>
+    <div>
+        <h3 style="margin-left: 1.25in">Login</h3>
+        <form style="display: flex; flex-direction: row; margin-left: 1.25in;" id="loginForm">
+            <div style="margin-right: 14.25pt;">
+                <label for=#userFieldLogin">Usuario</label>
+                <input type="text" style="width: 2.25in;" id="userFieldLogin" placeholder="ej: lumend24" />
+            </div>
+            <div>
+                <label for="#pswFieldLogin">Contraseña</label>
+                <input type="password" style="width: 4.25in;" id="pswFieldLogin" placeholder="mínimo 8 caracteres, al menos una letra, un número y un símbolo" />
+            </div>
+            <input type="submit" />
+        </form>
+    </div>
+    <script src="../src/index.js"></script>
+</body>
+</html>
